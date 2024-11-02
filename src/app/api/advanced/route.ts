@@ -18,7 +18,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     return new NextResponse(
       getFrameHtmlResponse({
         image: {
-          src: `${process.env.NEXT_PUBLIC_SITE_URL}/wrong-answer2.jpg`,
+          src: `https://i.imgur.com/BnJ8a1t.jpg`,
         },
       })
     )
@@ -32,7 +32,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(
     getFrameHtmlResponse({
       image: {
-        src: `${process.env.NEXT_PUBLIC_SITE_URL}/correct-answer2.jpg`,
+        src: `https://i.imgur.com/FTFr2RG.jpg`,
       },
     })
   )
