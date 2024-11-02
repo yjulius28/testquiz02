@@ -8,15 +8,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-      <div
-        tw="relative flex flex-col items-center justify-center w-full h-full bg-cover bg-center"
-        style={{
-          backgroundImage: "url('https://i.imgur.com/BnlWyZq.jpg')",
-          backgroundSize: "100% 100%",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-    ></div>
+      src: `https://i.imgur.com/BnlWyZq.jpg`,
   },
   input: {
     text: 'Your Answer',
