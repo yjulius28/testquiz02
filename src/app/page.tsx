@@ -13,14 +13,14 @@ const frameMetadata = getFrameMetadata({
   input: {
     text: 'Your Answer',
   },
-  postUrl: `api/advanced`,
+  postUrl: `/api/advanced`,
 })
 
 export const metadata: Metadata = {
   title: 'Riddle Frame',
   description: 'Riddle Frame Input Answer',
   openGraph: {
-    title: 'Riddle Fram',
+    title: 'Riddle Frame',
     description: 'Riddle Frame Input Answer',
     images: [`https://i.imgur.com/BnlWyZq.jpg`],
   },
