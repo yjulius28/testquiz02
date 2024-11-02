@@ -13,7 +13,7 @@ const frameMetadata = getFrameMetadata({
   input: {
     text: 'Your Answer',
   },
-  postUrl: `api/advanced`,
+  postUrl: `/api/advanced`,
 })
 
 export const metadata: Metadata = {
