@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `${process.env.NEXT_PUBLIC_SITE_URL}/riddle.png`,
+    src: `https://i.imgur.com/BnlWyZq.jpg`,
   },
   input: {
     text: 'Your Answer',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Riddle Fram',
     description: 'Riddle Frame Input Answer',
-    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/riddle.png`],
+    images: [`https://i.imgur.com/BnlWyZq.jpg`],
   },
   other: {
     ...frameMetadata,
