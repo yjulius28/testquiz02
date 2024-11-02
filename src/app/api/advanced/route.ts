@@ -7,7 +7,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   const { untrustedData } = body
 
   const isValidAnswer = untrustedData.inputText.match(
-    /right/
+    'right'
   )
 
   if (!untrustedData.inputText || !isValidAnswer) {
