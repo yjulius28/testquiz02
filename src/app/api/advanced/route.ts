@@ -1,5 +1,6 @@
 import { FrameRequest, getFrameHtmlResponse } from '@coinbase/onchainkit/frame'
 import { NextRequest, NextResponse } from 'next/server'
+import { frames } from "./api/advanced";
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   const body: FrameRequest = await req.json()
