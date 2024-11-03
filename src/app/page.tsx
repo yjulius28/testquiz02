@@ -9,6 +9,7 @@ const frameMetadata = getFrameMetadata({
   ],
   image: {
       src: `https://i.imgur.com/BnlWyZq.jpg`,
+      aspectRatio: "1:1",
   },
   input: {
     text: 'Your Answer',
