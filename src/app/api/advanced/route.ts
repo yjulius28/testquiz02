@@ -19,6 +19,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       getFrameHtmlResponse({
         image: {
           src: `https://i.imgur.com/BnJ8a1t.jpg`,
+          aspectRatio: "1:1",
         },
       })
     )
@@ -33,6 +34,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       image: {
         src: `https://i.imgur.com/FTFr2RG.jpg`,
+        aspectRatio: "1:1",
       },
     })
   )
