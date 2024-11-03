@@ -13,7 +13,7 @@ const frameMetadata = getFrameMetadata({
   input: {
     text: 'Your Answer',
   },
-  postUrl: `/api/advanced`,
+  postUrl: `https://testquiz02.vercel.app/api/advanced`,
 })
 
 export const metadata: Metadata = {
